@@ -24,7 +24,7 @@ shortcuts in order to accomplish their goals.
 Also, a reviewer has ownership and responsibility over the code they are
 reviewing. They want to ensure that the codebase stays consistent, maintainable,
 and all of the other things mentioned in
-["What to look for in a code review."](22looking-for.md)
+["What to look for in a code review."](looking-for.md)
 
 Thus, we get the following rule as the standard we expect in code reviews:
 
@@ -55,7 +55,7 @@ choose to ignore.
 
 Note: Nothing in this document justifies checking in CLs that definitely
 _worsen_ the overall code health of the system. The only time you would do that
-would be in an [emergency](../02emergencies.md).
+would be in an [emergency](../emergencies.md).
 
 ## Mentoring
 
@@ -94,7 +94,7 @@ indicate that it's not mandatory for the author to resolve it in this CL.
 In any conflict on a code review, the first step should always be for the
 developer and reviewer to try to come to consensus, based on the contents of
 this document and the other documents in [The CL Author's Guide](../developer/)
-and this [Reviewer Guide](20index.md).
+and this [Reviewer Guide](index.md).
 
 When coming to consensus becomes especially difficult, it can help to have a
 face-to-face meeting or a VC between the reviewer and the author, instead of
@@ -109,4 +109,4 @@ for a decision from a maintainer of the code, or asking an Eng Manager to help
 out. **Don't let a CL sit around because the author and the reviewer can't come
 to an agreement.**
 
-Next: [What to look for in a code review](22looking-for.md)
+Next: [What to look for in a code review](looking-for.md)

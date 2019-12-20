@@ -67,4 +67,4 @@ code readers.** They are acceptable only in a few circumstances, such as when
 you are reviewing an area you are not very familiar with and the developer
 explains something that normal readers of the code would have already known.
 
-Next: [Handling Pushback in Code Reviews](26pushback.md)
+Next: [Handling Pushback in Code Reviews](pushback.md)

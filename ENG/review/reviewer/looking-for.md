@@ -3,7 +3,7 @@
 
 
 Note: Always make sure to take into account
-[The Standard of Code Review](21standard.md) when considering each of these
+[The Standard of Code Review](standard.md) when considering each of these
 points.
 
 ## Design
@@ -65,7 +65,7 @@ universe.
 Ask for unit, integration, or end-to-end
 tests as appropriate for the change. In general, tests should be added in the
 same CL as the production code unless the CL is handling an
-[emergency](../02emergencies.md).
+[emergency](../emergencies.md).
 
 Make sure that the tests in the CL are correct, sensible, and useful. Tests do
 not test themselves, and we rarely write tests for our tests—a human must ensure
@@ -201,4 +201,4 @@ Make sure to review **every line** of code you've been asked to review, look at
 the **context**, make sure you're **improving code health**, and compliment
 developers on **good things** that they do.
 
-Next: [Navigating a CL in Review](23navigate.md)
+Next: [Navigating a CL in Review](navigate.md)

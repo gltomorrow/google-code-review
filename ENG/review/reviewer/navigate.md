@@ -4,18 +4,18 @@
 
 ## Summary
 
-Now that you know [what to look for](22looking-for.md), what's the most efficient
+Now that you know [what to look for](looking-for.md), what's the most efficient
 way to manage a review that's spread across multiple files?
 
 1.  Does the change make sense? Does it have a good
-    [description](../developer/11cl-descriptions.md)?
+    [description](../developer/cl-descriptions.md)?
 2.  Look at the most important part of the change first. Is it well-designed
     overall?
 3.  Look at the rest of the CL in an appropriate sequence.
 
 ## Step One: Take a broad view of the change {#step_one}
 
-Look at the [CL description](../developer/11cl-descriptions.md) and what the CL
+Look at the [CL description](../developer/cl-descriptions.md) and what the CL
 does in general. Does this change even make sense? If this change shouldn't have
 happened in the first place, please respond immediately with an explanation of
 why the change should not be happening. When you reject a change like this, it's
@@ -45,7 +45,7 @@ the CL. Look at these major parts first. This helps give context to all of the
 smaller parts of the CL, and generally accelerates doing the code review. If the
 CL is too large for you to figure out which parts are the major parts, ask the
 developer what you should look at first, or ask them to
-[split up the CL into multiple CLs](../developer/12small-cls.md).
+[split up the CL into multiple CLs](../developer/small-cls.md).
 
 If you see some major design problems with this part of the CL, you should send
 those comments immediately, even if you don't have time to review the rest of
@@ -76,4 +76,4 @@ the code review tool presents them to you. Sometimes it's also helpful to read t
 first before you read the main code, because then you have an idea of what the
 change is supposed to be doing.
 
-Next: [Speed of Code Reviews](24speed.md)
+Next: [Speed of Code Reviews](speed.md)

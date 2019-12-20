@@ -74,5 +74,5 @@ some consensus between yourself and the reviewer based on technical facts.
 
 Your first step in resolving conflicts should always be to try to come to
 consensus with your reviewer. If you can't achieve consensus, see
-[The Standard of Code Review](../reviewer/21standard.md), which gives principles
+[The Standard of Code Review](../reviewer/standard.md), which gives principles
 to follow in such a situation.

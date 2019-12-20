@@ -124,4 +124,4 @@ CLs can undergo significant change during review. It can be worthwhile to review
 a CL description before submitting the CL, to ensure that the description still
 reflects what the CL does.
 
-Next: [Small CLs](12small-cls.md)
+Next: [Small CLs](small-cls.md)

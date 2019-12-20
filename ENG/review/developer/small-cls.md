@@ -150,4 +150,4 @@ what is coming. In this situation, expect to be going through the review process
 for a long time, be vigilant about not introducing bugs, and be extra diligent
 about writing tests.
 
-Next: [How to Handle Reviewer Comments](13handling-comments.md)
+Next: [How to Handle Reviewer Comments](handling-comments.md)

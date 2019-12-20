@@ -13,14 +13,14 @@ continue instead of rolling back, fixes a bug significantly affecting users in
 production, handles a pressing legal issue, closes a major security hole, etc.
 
 In emergencies we really do care about the speed of the entire code review
-process, not just the [speed of response](reviewer/24speed.md). In this case
+process, not just the [speed of response](reviewer/speed.md). In this case
 *only*, the reviewer should care more about the speed of the review and the
 correctness of the code (does it actually resolve the emergency?) than anything
 else. Also (perhaps obviously) such reviews should take priority over all other
 code reviews, when they come up.
 
 However, after the emergency is resolved you should look over the emergency CLs
-again and give them a [more thorough review](reviewer/22looking-for.md).
+again and give them a [more thorough review](reviewer/looking-for.md).
 
 ## What Is Not An Emergency? {#not}
 

@@ -25,7 +25,7 @@ resulting code quality improvement justifies the additional work requested.
 **Improving code health tends to happen in small steps.**
 
 Sometimes it takes a few rounds of explaining a suggestion before it really
-sinks in. Just make sure to always stay [polite](25comments.md#courtesy) and let
+sinks in. Just make sure to always stay [polite](comments.md#courtesy) and let
 the developer know that you *hear* what they're saying, you just don't *agree*.
 
 ## Upsetting Developers {#upsetting_developers}
@@ -33,10 +33,10 @@ the developer know that you *hear* what they're saying, you just don't *agree*.
 Reviewers sometimes believe that the developer will be upset if the reviewer
 insists on an improvement. Sometimes developers do become upset, but it is
 usually brief and they become very thankful later that you helped them improve
-the quality of their code. Usually, if you are [polite](25comments.md#courtesy) in
+the quality of their code. Usually, if you are [polite](comments.md#courtesy) in
 your comments, developers actually don't become upset at all, and the worry is
 just in the reviewer's mind. Upsets are usually more about
-[the way comments are written](25comments.md#courtesy) than about the reviewer's
+[the way comments are written](comments.md#courtesy) than about the reviewer's
 insistence on code quality.
 
 ## Cleaning It Up Later {#later}
@@ -56,7 +56,7 @@ code is in the codebase and "done." Letting people "clean things up later" is a
 common way for codebases to degenerate.
 
 If a CL introduces new complexity, it must be cleaned up before submission
-unless it is an [emergency](../02emergencies.md). If the CL exposes surrounding
+unless it is an [emergency](../emergencies.md). If the CL exposes surrounding
 problems and they can't be addressed right now, the developer should file a bug
 for the cleanup and assign it to themselves so that it doesn't get lost. They
 can optionally also write a TODO comment in the code that references the filed
@@ -66,7 +66,7 @@ bug.
 
 If you previously had fairly lax code reviews and you switch to having strict
 reviews, some developers will complain very loudly. Improving the
-[speed](24speed.md) of your code reviews usually causes these complaints to fade
+[speed](speed.md) of your code reviews usually causes these complaints to fade
 away.
 
 Sometimes it can take months for these complaints to fade away, but eventually
@@ -79,5 +79,5 @@ value you're adding by being strict.
 
 If you are following all of the above but you still encounter a conflict between
 yourself and a developer that can't be resolved, see
-[The Standard of Code Review](21standard.md) for guidelines and principles that
+[The Standard of Code Review](standard.md) for guidelines and principles that
 can help resolve the conflict.
